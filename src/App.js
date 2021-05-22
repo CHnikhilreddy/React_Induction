@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Product from './Product';
-import Books from './Books';
+import Books from './Bookrelated/Books';
+import Users from './Users'
+import Userinfo from './Userinfo'
+import Books1 from './classes/Books1'
 
 function App() {
 
@@ -16,6 +19,7 @@ function App() {
             return <Product key = { prod.name}name={prod.name} price={prod.price} qty={prod.qty}/>
           })
         } */}
+        {/* <Books/> */}
         <Books/>
     </div>
   );
